@@ -1,0 +1,282 @@
+body{
+    background-color: #cabfb1;
+    background-image: url("img/star.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+#mainTable{
+    width:100%;
+    border: none;
+}
+#mainTable td{
+    height: 92vh;
+    border: none;
+}
+#mainTable > tbody > tr:first-child > td{
+    width: 33%;
+    height: 8vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#mainTable tr:first-child td div{
+    background-color: rgba(219, 112, 147, 1);
+    width: 302.5%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+#mainTable tr:first-child td div span{
+    position: relative;
+    margin: 20px;
+    font-family: "Comic Sans MS";
+    font-size: 1.4em;
+    color: #FADADD;
+}
+#svgWrapper{
+    position: relative;
+    left: 20px;
+    background-color:rgba(250, 222, 237,0.4) ;
+    width: 500px;
+    height: 550px;
+    border-radius: 20px;
+    top: 6vh;
+    border: 4px solid rgba(219, 112, 147, 0.7);
+}
+#svgWrapper svg{
+    position: relative;
+    left: 25px;
+    top: 50px;
+}
+
+.core-text{
+    font-family: "Comic Sans MS";
+    fill: #4e233b;
+}
+#buttonX button{
+    width: 65px;
+    height: 45px;
+    border-radius: 8px;
+    margin: 4px 4px;
+    border: 2px solid rgba(202, 55, 103, 1);
+    background-color: rgba(250, 218, 221, 1);
+    color: rgba(202, 55, 103, 1);
+    font-family: "Comic Sans MS";
+    outline: none;
+}
+#buttonX button:hover{
+    background-color: rgba(240, 185, 203, 0.7) ;
+}
+#buttonX{
+    position: relative;
+    left: 16px;
+    display: flex;
+    flex-flow: column wrap;
+    width: 210px;
+    height: 160px;
+}
+#buttonXWrapper{
+    position: relative;
+    top: -4vh;
+    width: 250px;
+    height: 230px;
+    background-color:rgba(219, 112, 147,0.7);
+    border: 4px solid #FADADD;
+    border-radius: 7px;
+
+}
+#buttonXWrapper h3{
+    text-align: center;
+    font-family: "Comic Sans MS";
+    color: #FADADD;
+}
+
+#buttonYWrapper{
+    position: relative;
+    top: -2vh;
+    width: 250px;
+    height: 80px;
+}
+#buttonYWrapper input{
+    width: 247px;
+    height: 30px;
+    border-radius: 7px;
+    border: 4px solid #FADADD;
+    background-color: rgba(219, 112, 147,0.7);
+    color: #FADADD;
+    font-family: "Comic Sans MS";
+    font-size: 1.1em;
+    font-weight: 800;
+    outline: none;
+}
+#buttonYWrapper input::placeholder{
+    font-family: "Comic Sans MS";
+    color: #FADADD;
+}
+#buttonZWrapper{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    top: -5.2vh;
+    width: 250px;
+    height: 65px;
+    background-color: rgba(219, 112, 147,0.7);
+    border: 4px solid #FADADD;
+    border-radius: 7px;
+}
+#buttonZ select{
+    position: relative;
+    top: -15px;
+    width: 240px;
+    height: 25px;
+    background-color: rgba(250, 218, 221, 1);
+    font-family: "Comic Sans MS";
+    color: rgba(202, 55, 103, 1);
+    border: 2px solid rgba(202, 55, 103, 1);
+    border-radius: 5px;
+    outline: none;
+}
+#buttonZWrapper h3{
+    font-family: "Comic Sans MS";
+    color: #FADADD;
+}
+#answerCloud{
+    width: 350px;
+}
+#answer{
+    position: relative;
+    top: -29.5vh;
+    left: 7vw;
+    width: 300px;
+}
+#answer p{
+    position: relative;
+    height: 60px;
+    left: 60px;
+    top: 160px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    color: rgba(202, 55, 103, 1);
+    font-size: 1.2em;
+}
+#panel{
+    position: relative;
+    top: 16vh;
+    left: 3vw;
+    width: 260px;
+}
+#sendClearWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -3vh;
+    width: 250px;
+    height: 50px;
+    background-color: rgba(219, 112, 147,0.7);
+    border: 4px solid #FADADD;
+    border-radius: 7px;
+}
+#sendClearWrapper button{
+    width: 110px;
+    height: 35px;
+    background-color: #FADADD;
+    border: 2px solid rgba(202, 55, 103, 1);
+    border-radius: 8px;
+    color: rgba(202, 55, 103, 1);
+    font-family: "Comic Sans MS";
+    font-size: 1.1em;
+    outline: none;
+}
+#sendClearWrapper button:hover{
+    background-color: rgba(240, 185, 203, 0.7) ;
+}
+#shitTable{
+    position: relative;
+    border: 3px solid rgba(78,35,59,0.7);
+    border-collapse: collapse;
+}
+#writingResult tr td{
+    position: relative;
+    width: 16.6vw;
+    height: 7vh;
+    font-family: "Comic Sans MS";
+    color: rgba(219, 112, 147, 1);
+    background-color: #FADADD;
+    border: 3px solid rgb(78,35,59);
+    border-collapse: collapse;
+}
+.row td{
+    text-align: center;
+}
+#shitTable tr th{
+    position: relative;
+    width: 16.6vw;
+    height: 10vh;
+    background-color: rgb(219, 112, 147);
+    color: #FADADD;
+    font-family: "Comic Sans MS";
+    border: 3px solid rgba(78,35,59,1);
+    border-collapse: collapse;
+    text-align: center;
+}
+#shitTableWrapper{
+    position: absolute;
+    top: 100vh;
+    left: -0.05vw;
+}
+@media (max-width: 1300px){
+    #panel{
+        position: absolute;
+        top: 40vh;
+        left: 50vw;
+        margin-left: -130px;
+    }
+    #svgWrapper{
+        position: absolute;
+        top: 100vh;
+        left: 50vw;
+        margin-left: -250px;
+    }
+    #shitTableWrapper{
+        top: 200vh;
+    }
+    #answer{
+        position: absolute;
+        left: 55vw;
+        top: 5vh;
+    }
+    #answerCloud{
+        width: 40vw;
+    }
+    #answer p{
+        position: relative;
+        left: 10vw;
+        top: 26vh;
+    }
+}
+@media (max-width: 1000px) {
+    #answer p{
+        position: relative;
+        left: 6vw;
+        top: 21vh;
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 700px) {
+    #answer p {
+        position: relative;
+        left: -3vw;
+        top: 18vh;
+        font-size: 0.6em;
+    }
+    #answer{
+        position: absolute;
+        left: 55vw;
+        top: 3vh;
+    }
+}
