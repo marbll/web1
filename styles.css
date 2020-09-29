@@ -3,6 +3,7 @@ body{
     background-image: url("img/star.jpg");
     background-repeat: no-repeat;
     background-size: 100vw;
+    overflow-x: hidden;
 }
 #mainTable{
     width:100%;
@@ -245,30 +246,38 @@ body{
     #shitTableWrapper{
         top: 200vh;
     }
-    #answer{
+    #answer p{
         position: absolute;
-        left: 55vw;
-        top: 5vh;
+        left: 40vw;
+        margin-left: -148px;
+        top: -35vh;
+        width: 250px;
+        border: 2px solid rgb(219, 112, 147);
+        border-radius: 7px;
+        background-color: #FADADD;
     }
     #answerCloud{
-        width: 40vw;
+        visibility: hidden;
     }
-    #answer p{
+    #answer {
         position: relative;
         left: 10vw;
         top: 26vh;
     }
+    body{
+        background-image: none;
+    }
 }
-@media (max-width: 1000px) {
+/*@media (max-width: 1000px) {
     #answer p{
         position: relative;
         left: 6vw;
         top: 21vh;
         font-size: 0.8em;
     }
-}
+}*/
 @media (max-width: 700px) {
-    #answer p {
+    /*#answer p {
         position: relative;
         left: -3vw;
         top: 18vh;
@@ -278,5 +287,11 @@ body{
         position: absolute;
         left: 55vw;
         top: 3vh;
+    }*/
+    #svgWrapper{
+        width: 470px;
+    }
+    #svgWrapper svg{
+        left: 15px;
     }
 }
